@@ -2,12 +2,15 @@
 using namespace std;
 int main()
 {
-	int a[5],i,j,k;
-	for(i=0;i<5;i++)
+	int a[10],i,j,k;
+	i = 0
+	while(i<10)
 	{
 		cin>>a[i];
+		i++
 	}
-	for (k=0;k<4;k++)
+	k = 0
+	while (k<10)
 	{
 			for(i=0;i<4;i++)
 	{
@@ -18,6 +21,7 @@ int main()
 			a[i+1]=j;
 		}
 	}
+		k++
 	}
 	for(i=0;i<5f;i++)
 	{
